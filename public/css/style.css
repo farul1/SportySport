@@ -1,0 +1,70 @@
+body {
+    background-image: url('https://us.123rf.com/450wm/9dreamstudio/9dreamstudio2010/9dreamstudio201001180/157563226-set-of-sport-games-balls-on-white-baclground-top-view-copy-space.jpg?ver=6');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.btn1, .btn2 {
+    background-color: #2C3E50;
+    border: none;
+    color: #ffffff;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+@keyframes shake {
+    0% { transform: translateX(0) rotate(0deg) scale(1); }
+    25% { transform: translateX(-5px) rotate(2deg) scale(1.05); }
+    50% { transform: translateX(5px) rotate(-2deg) scale(0.95); }
+    75% { transform: translateX(-2px) rotate(1deg) scale(1.02); }
+    100% { transform: translateX(0) rotate(0deg) scale(1); }
+}
+
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    animation: shake 0.5s ease infinite;
+}
+
+.btn1:hover, .btn2:hover {
+    background-color: #666666;
+    transform: scale(1.02);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.card {
+    border: none;
+    transition: box-shadow 0.3s, transform 0.2s;
+    position: relative;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+h4, label, h2, .bi-person-circle {
+    color: #000;
+}
+
+
+.btn1 {
+    padding: 15px 30px;
+}
+
+.btn2 {
+    padding: 10px 20px;
+}
