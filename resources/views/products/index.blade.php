@@ -17,9 +17,9 @@
                 <tr>
                     <th>Kode</th>
                     <th>Nama</th>
-                    <th>Harga</th>
+                    <th style="width: 130px;">Harga</th>
                     <th>Deskripsi</th>
-                    <th>Satuan</th>
+                    <th style="width: 100px;">Satuan</th>
                     <th>Gambar</th>
                     <th>Aksi</th>
                 </tr>
