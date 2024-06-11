@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://us.123rf.com/450wm/9dreamstudio/9dreamstudio2010/9dreamstudio201001180/157563226-set-of-sport-games-balls-on-white-baclground-top-view-copy-space.jpg?ver=6');
+    background-image: url('https://static.vecteezy.com/system/resources/previews/025/871/650/non_2x/background-with-sport-equipment-vector.jpg');
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
@@ -67,4 +67,64 @@ h4, label, h2, .bi-person-circle {
 
 .btn2 {
     padding: 10px 20px;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table thead th {
+    background: linear-gradient(to right, #6fcaff, #f7fbff);
+    color: #505050;
+}
+
+.table tbody td {
+    background: linear-gradient(to right, rgba(217, 235, 238, 0.8), rgba(247, 251, 255, 0.8));
+    color: #333;
+}
+
+.table tbody td:nth-child(3) {
+    text-align: left;
+}
+
+.table tbody td:nth-child(6) {
+    text-align: center;
+}
+
+
+.btn3 {
+    background-color: #889aa7;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.btn3:hover{
+    background-color: #163142;
+    transform: scale(1.02);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn3 {
+    padding: 2px 4px;
 }
